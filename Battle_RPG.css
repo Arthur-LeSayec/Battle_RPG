@@ -1,7 +1,99 @@
-body{
-	background-image : url("background_RPG_Battle.png");
-	background-size : contain;
-	background-repeat : no-repeat;
-	background-position : center;
-	background-size: 1000px 1000px;
+body {
+	background-image: url("background_RPG_Battle.png");
+	background-size: cover;
+}
+
+.groupe_monstres {
+  display: flex;
+  font: 30px Arial, sans-serif;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  left: 25%;
+  right: 20%;
+  top: 20%;
+  bottom: 50%;
+}
+
+.groupe_personnages{
+  display: flex;
+  font: 30px Arial, sans-serif;
+  background-color: coral;
+  justify-content: space-between;
+  flex-direction: row;
+  position: fixed;
+  top: 68%;
+  left: 32%;
+  right: 3%;
+  border: 5px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.stats_sous_joueur {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font: 25px Arial, sans-serif;
+  align-items: center;
+  background-color: coral;
+  position: fixed;
+  top: 75%;
+  left: 22%;
+  right: 1%;
+  border: 5px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.valeurs_sous_joueur {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font: 25px Arial, sans-serif;
+  align-items: center;
+  position: fixed;
+  top: 75%;
+  left: 37%;
+  right: 1%;
+  padding: 15px;
+}
+
+
+.menu_choix{
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: coral;
+	font: 35px Arial, sans-serif;
+	position: fixed;
+	bottom: 4%;
+	top: 60%;
+	left: 1%;
+	right: 80%;
+	border: 10px solid black;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+#monstre_1 {
+	background-image: url("Monstre_1.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 300px;
+}
+
+#monstre_2 {
+	background-image: url("Monstre_2.png");
+	background-repeat: no-repeat;	
+	background-size: contain;
+	padding: 300px;
+}
+
+#monstre_3 {
+	background-image: url("Monstre_3.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 300px;
 }
